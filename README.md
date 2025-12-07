@@ -7,16 +7,18 @@ M6D videos are delivered via the .m6d file format. A .m6d file is just a ZIP fil
 ### Metadata.txt
 Contains certain metadata about the video. It is structured like this:
 
-M6D METADATAName: <insert name here>
+M6D METADATA
 
-Length: <insert length in frames here>
+Name: insert name here
 
-FPS: <insert frames per second here>
+Length: insert length in frames here
 
-Bound Size: <insert boundary size x here>, <insert boundary size y here>, <insert boundary size z here>
+FPS: insert frames per second here
 
-Height of centre: <insert height of centre from ground here>
+Bound Size: insert boundary size x here, insert boundary size y here, insert boundary size z here
 
-Scene Count: <insert scene count here>
+Height of centre: insert height of centre from ground here
 
-Audio: <0 = mono, 1 = stereo, 2 = object-based
+Scene Count: insert scene count here
+
+Audio: 0 = mono, 1 = stereo, 2 = object-based
